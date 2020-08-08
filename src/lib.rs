@@ -10,7 +10,7 @@ use std::str::FromStr;
 pub fn get_usernames(
     list_file_path: Option<PathBuf>,
     number_to_print: usize,
-    maximum_length: usize,
+    maximum_length: u8,
     title_case: bool,
 ) -> Vec<String> {
     let (word_list1, word_list2) = match list_file_path {
@@ -31,7 +31,7 @@ pub fn get_usernames(
 fn make_username(
     word_list1: &[String],
     word_list2: &[String],
-    maximum_length: usize,
+    maximum_length: u8,
     title_case: bool,
 ) -> String {
     let (word1, word2) = (
@@ -53,7 +53,7 @@ fn make_username(
             word2.trim_end(),
             rand::thread_rng().gen_range(0, 999)
         );
-        if username.len() > maximum_length {
+        if username.len() > maximum_length.into() {
             make_username(word_list1, word_list2, maximum_length, title_case)
         } else {
             username
@@ -64,7 +64,7 @@ fn make_username(
             word2.trim_end(),
             rand::thread_rng().gen_range(0, 999)
         );
-        if username.len() > maximum_length {
+        if username.len() > maximum_length.into() {
             make_username(word_list1, word_list2, maximum_length, title_case)
         } else {
             username

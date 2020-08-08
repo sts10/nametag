@@ -20,8 +20,8 @@ struct Opt {
     number_to_print: usize,
 
     /// Set maximum username length. Must be greater than 5.
-    #[structopt(short = "m", long = "maximum", default_value = "100")]
-    maximum_length: usize,
+    #[structopt(short = "m", long = "maximum", default_value = "50")]
+    maximum_length: u8,
 
     /// Uses Title Case for words in generated usernames
     #[structopt(short = "t", long = "title-case")]
