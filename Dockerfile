@@ -26,13 +26,17 @@ RUN rm -f target/release/deps/nametag \
 # runner stage to decrease image size
 FROM alpine:latest
 
+WORKDIR /nametag
+
 # copy the build artifact from the build stage
-COPY --from=build /nametag/target/release/nametag .
+COPY --from=build /nametag/target/release/nametag /nametag
+# copy word lists
+COPY --from=build /nametag/word-lists /nametag/word-lists
 
 # create user/group to run instead of sudo
 RUN addgroup -g 1000 nametaggroup \
   && adduser -D -s /bin/sh -u 1000 -G nametaggroup nametaguser \
-  && chown nametaguser:nametaggroup /nametag
+  && chown -R nametaguser:nametaggroup /nametag
 
 USER nametaguser
 
