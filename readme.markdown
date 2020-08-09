@@ -58,9 +58,11 @@ If the `maximum` option is set less than 11, nametag will only pull one word fro
 
 ### Docker Notes
 
-- During development run `docker-compose up --build` when changing Rust code to rebuild with new code and/or dependencies.
+- During development run `docker-compose up --build` when changing Rust code and adding word lists to rebuild with new code and/or dependencies.
 
-- To change the command nametag is run with, edit the command in `docker-compose.yml`. Make sure to keep `/` before `nametag` as provided in the default. For example: `/nametag -n 5 -t`
+- To change the command nametag is run with, edit the command in `docker-compose.yml`. Make sure to keep `./` before `nametag` as provided in the default. For example: `./nametag -v -l /nametag/word-lists/eff_large_wordlist.txt`
+
+- It is recommended to add user provided word lists into the `word-list` directory and use either the absolute path (`/nametag/word-lists/custom_wordlist.txt`) or relative path (`./word-lists/custom_wordlist.txt`) when using them as an argument .
 
 ## On the included word lists
 
