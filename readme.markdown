@@ -50,6 +50,18 @@ If the `maximum` option is set less than 11, nametag will only pull one word fro
 1. [Install Rust](https://www.rust-lang.org/tools/install) if you haven't already
 2. Run: `cargo install --git https://github.com/sts10/nametag`
 
+## Installation with Docker
+
+1. [Install Docker](https://docs.docker.com/get-docker)
+2. Clone this repo and move into the created directory: `git clone https://github.com/sts10/nametag && cd nametag`
+3. Run: `docker-compose up`
+
+### Docker Notes
+
+- During development run `docker-compose up --build` when changing Rust code to rebuild with new code and/or dependencies.
+
+- To change the command nametag is run with, edit the command in `docker-compose.yml`. Make sure to keep `/` before `nametag` as provided in the default. For example: `/nametag -n 5 -t`
+
 ## On the included word lists
 
 If no word list is provided, nametag uses one or two word lists from [the SecureDrop project](https://github.com/freedomofpress/securedrop/) to create usernames. If the maximum length allows (or is not specified), usernames will be in "[adjective](https://github.com/freedomofpress/securedrop/blob/develop/securedrop/dictionaries/adjectives.txt) + [noun](https://github.com/freedomofpress/securedrop/blob/develop/securedrop/dictionaries/nouns.txt) + number" format. If the maximum length is set below 11 characters, nametag will use a "noun + number" format.
