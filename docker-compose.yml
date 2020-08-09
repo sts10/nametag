@@ -1,0 +1,8 @@
+version: '2.4'
+
+services:
+  nametag:
+    build: .
+    image: nametag:v1
+    # change this to run other commands
+    command: /nametag
