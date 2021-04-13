@@ -43,7 +43,7 @@ If the `maximum` option is set less than 11, nametag will only pull one word fro
 - `nametag` generates 10 random usernames from included word lists (see below)
 - `nametag -l path/to/a/custom_wordlist.txt` generates 10 random usernames using words from provided `.txt` file, where each word is on its own line
 - `nametag -n 5 -m 12` generates 5 random usernames with a maximum length of 12 characters.
-- `nametag -n 5 -t` generates 5 random usernames where each word is in Title Case.
+- `nametag -n 15 -t` generates 15 random usernames where each word is in Title Case.
 
 ## Installation
 
@@ -58,11 +58,11 @@ If the `maximum` option is set less than 11, nametag will only pull one word fro
 
 ### Docker Notes
 
-- During development run `docker-compose up --build` when changing Rust code and adding word lists to rebuild with new code and/or dependencies.
+- During development, run `docker-compose up --build` when changing Rust code and adding word lists to rebuild with new code and/or dependencies.
 
 - To change the command nametag is run with, edit the command in `docker-compose.yml`. Make sure to keep `./` before `nametag` as provided in the default. For example: `./nametag -v -l /nametag/word-lists/eff_large_wordlist.txt`
 
-- It is recommended to add user provided word lists into the `word-list` directory and use either the absolute path (`/nametag/word-lists/custom_wordlist.txt`) or relative path (`./word-lists/custom_wordlist.txt`) when using them as an argument .
+- It is recommended to add user-provided word lists into the `word-list` directory, and use either the absolute path (`/nametag/word-lists/custom_wordlist.txt`) or relative path (`./word-lists/custom_wordlist.txt`) when using them as an argument.
 
 ## On the included word lists
 
