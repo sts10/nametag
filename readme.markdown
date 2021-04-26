@@ -48,7 +48,7 @@ If the `maximum` option is set less than 11, nametag will only pull one word fro
 ## Installation
 
 1. [Install Rust](https://www.rust-lang.org/tools/install) if you haven't already
-2. Run: `cargo install --git https://github.com/sts10/nametag`
+2. Run: `cargo install --git https://github.com/sts10/nametag --branch main`
 
 ## Installation with Docker
 
