@@ -4,6 +4,7 @@ use std::fs::File;
 use std::io;
 use std::io::BufRead;
 use std::io::BufReader;
+use std::path::Path;
 use std::path::PathBuf;
 use std::str::FromStr;
 
@@ -72,7 +73,7 @@ fn make_username(
     }
 }
 
-fn make_list(file_path: &PathBuf) -> Vec<String> {
+fn make_list(file_path: &Path) -> Vec<String> {
     let file_input: Vec<String> = match read_by_line(file_path.to_path_buf()) {
         Ok(r) => r,
         Err(e) => panic!("Error reading word list file: {}", e),
