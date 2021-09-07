@@ -42,8 +42,9 @@ If the `maximum` option is set less than 11, nametag will only pull one word fro
 
 - `nametag` generates 10 random usernames from included word lists (see below)
 - `nametag -l path/to/a/custom_wordlist.txt` generates 10 random usernames using words from provided `.txt` file, where each word is on its own line
-- `nametag -n 5 -m 12` generates 5 random usernames with a maximum length of 12 characters.
-- `nametag -n 15 -t` generates 15 random usernames where each word is in Title Case.
+- `nametag -n 5 -m 12` generates 5 random usernames with a maximum length of 12 characters
+- `nametag -n 15 -t` generates 15 random usernames where each word is in Title Case
+- `nametag -n 25 > usernames.txt` writes 25 random usernames to a new file called `usernames.txt`
 
 ## Installation
 

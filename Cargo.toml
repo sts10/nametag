@@ -1,6 +1,6 @@
 [package]
 name = "nametag"
-version = "0.1.11"
+version = "0.1.12"
 authors = ["sts10 <sschlinkert@gmail.com>"]
 edition = "2018"
 
