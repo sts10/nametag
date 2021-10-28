@@ -72,3 +72,10 @@ If no word list is provided, nametag uses one or two word lists from [the Secure
 If the user provides a word list of their own, using the `-l` option, nametag will use that provided list to generate _both_ words. 
 
 If you're looking to create or edit a word list, you might find useful another tool I built called [tidy](https://github.com/sts10/tidy).
+
+## Other similar projects also written in Rust
+
+It makes sense that others have made similar programs in Rust. Given my limited experience with Rust, they may very well be better than nametag, _especially_ if you're looking for a library to use in a larger (Rust) project.
+
+- [names](https://github.com/fnichol/names)
+- [rust-petname](https://github.com/allenap/rust-petname)
