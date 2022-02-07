@@ -20,18 +20,18 @@ vapid_protea736
 
 ```text
 USAGE:
-    nametag [FLAGS] [OPTIONS]
-
-FLAGS:
-    -h, --help          Prints help information
-    -t, --title-case    Uses Title Case for words in generated usernames
-    -V, --version       Prints version information
-    -v, --verbose       Prints verbose output, including parameters as received
+    nametag [OPTIONS]
 
 OPTIONS:
-    -l, --list <list-file-path>       Provide a txt file with a list of words to generate username from randomly
-    -m, --maximum <maximum-length>    Set maximum username length. Must be greater than 5 [default: 100]
-    -n, --number <number-to-print>    Set how many random usernames to output [default: 10]
+    -h, --help                        Print help information
+    -l, --list <LIST_FILE_PATH>       Provide a text file with a list of words to generate username
+                                      from randomly
+    -m, --maximum <MAXIMUM_LENGTH>    Set maximum username length. Must be greater than 5 [default:
+                                      50]
+    -n, --number <NUMBER_TO_PRINT>    Set how many random usernames to output [default: 10]
+    -t, --title-case                  Uses Title Case for words in generated usernames
+    -v, --verbose                     Prints verbose output, including parameters as received
+    -V, --version                     Print version information
 ```
 
 If the `maximum` option is set less than 11, nametag will only pull one word from the word list. If it's set to 11 or higher, it will pull two words from the word list.
