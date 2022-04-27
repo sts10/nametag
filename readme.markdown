@@ -46,6 +46,10 @@ If the `maximum` option is set less than 11, nametag will only pull one word fro
 - `nametag -n 15 -t` generates 15 random usernames where each word is in Title Case
 - `nametag -n 25 > usernames.txt` writes 25 random usernames to a new file called `usernames.txt`
 
+## Why random usernames are important
+
+Check out [this blog post from Bitwarden about why random usernames can boost security and privacy](https://bitwarden.com/blog/whats-in-a-user-name/).
+
 ## Installation
 
 1. [Install Rust](https://www.rust-lang.org/tools/install) if you haven't already
