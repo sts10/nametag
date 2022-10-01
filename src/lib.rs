@@ -36,8 +36,8 @@ fn make_username(
     title_case: bool,
 ) -> String {
     let (word1, word2) = (
-        get_random_element(&word_list1),
-        get_random_element(&word_list2),
+        get_random_element(word_list1),
+        get_random_element(word_list2),
     );
     // check if we need to make the words title case
     let (word1, word2) = if title_case {
@@ -52,7 +52,7 @@ fn make_username(
             word1.trim_end(),
             get_random_element(&["_".to_string(), "-".to_string(), "".to_string()]),
             word2.trim_end(),
-            rand::thread_rng().gen_range(0, 999)
+            rand::thread_rng().gen_range(0..=999)
         );
         if username.len() > maximum_length.into() {
             make_username(word_list1, word_list2, maximum_length, title_case)
@@ -63,7 +63,7 @@ fn make_username(
         let username = format!(
             "{}{}",
             word2.trim_end(),
-            rand::thread_rng().gen_range(0, 999)
+            rand::thread_rng().gen_range(0..=999)
         );
         if username.len() > maximum_length.into() {
             make_username(word_list1, word_list2, maximum_length, title_case)
