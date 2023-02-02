@@ -1,6 +1,7 @@
 use clap::Parser;
 use nametag::*;
 use std::path::PathBuf;
+use std::process;
 
 /// Generate random usernames
 #[derive(Parser, Debug)]
@@ -10,7 +11,7 @@ struct Args {
     #[clap(short = 'v', long = "verbose")]
     verbose: bool,
 
-    /// Provide a text file with a list of words to generate username from randomly
+    /// Provide a text file with a list of words to randomly generate username from
     #[clap(short = 'l', long = "list")]
     list_file_path: Option<PathBuf>,
 
@@ -37,8 +38,8 @@ fn main() {
         }
     }
     if opt.maximum_length < 5 {
-        eprintln!("Error. Maximum username length must be greater than 5");
-        return;
+        eprintln!("Error. Maximum username length must be greater than 5.");
+        process::exit(1);
     }
     let usernames = get_usernames(
         opt.list_file_path,

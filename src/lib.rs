@@ -8,16 +8,20 @@ use std::path::Path;
 use std::path::PathBuf;
 use std::str::FromStr;
 
+/// Main public function of this library. Takes optiona filepath of words, a number of usernames to
+/// print, a maximum username length and an option to print in TitleCase.
 pub fn get_usernames(
     list_file_path: Option<PathBuf>,
     number_to_print: usize,
     maximum_length: u8,
     title_case: bool,
 ) -> Vec<String> {
+    // First, let's figure out if we were given a word list file or not
     let (word_list1, word_list2) = match list_file_path {
         Some(list_file_path) => (make_list(&list_file_path), make_list(&list_file_path)),
         None => make_default_lists(),
     };
+    // Declare and fill up our Vector of usernames
     let mut usernames = Vec::new();
     for _n in 1..=number_to_print {
         usernames.push(make_username(
