@@ -1,4 +1,4 @@
-Copyright (C) 2023- Sam Schlinkert
+Copyright (C) 2020-2023 Sam Schlinkert
 
                     GNU AFFERO GENERAL PUBLIC LICENSE
                        Version 3, 19 November 2007
