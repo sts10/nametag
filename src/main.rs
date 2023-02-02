@@ -31,9 +31,9 @@ struct Args {
 fn main() {
     let opt = Args::parse();
     if opt.verbose {
-        eprintln!("Received options: {:?}", opt);
+        eprintln!("Received options: {opt:?}");
         match &opt.list_file_path {
-            Some(file_path) => eprintln!("Will use word list at {:?}", file_path),
+            Some(file_path) => eprintln!("Will use word list at {file_path:?}"),
             None => eprintln!("Will use default word list"),
         }
     }
@@ -48,6 +48,6 @@ fn main() {
         opt.title_case,
     );
     for username in usernames {
-        println!("{}", username);
+        println!("{username}");
     }
 }

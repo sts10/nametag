@@ -80,7 +80,7 @@ fn make_username(
 fn make_list(file_path: &Path) -> Vec<String> {
     let file_input: Vec<String> = match read_by_line(file_path.to_path_buf()) {
         Ok(r) => r,
-        Err(e) => panic!("Error reading word list file: {}", e),
+        Err(e) => panic!("Error reading word list file: {e}"),
     };
     let mut word_list: Vec<String> = vec![];
     for line in file_input {
@@ -122,7 +122,7 @@ where
     for line in file.lines() {
         match line?.parse() {
             Ok(l) => vec.push(l),
-            Err(e) => panic!("Error parsing line from file: {:?}", e),
+            Err(e) => panic!("Error parsing line from file: {e:?}"),
         }
     }
     Ok(vec)
