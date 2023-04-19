@@ -83,3 +83,7 @@ It makes sense that others have made similar programs in Rust. Given my limited 
 
 - [names](https://github.com/fnichol/names)
 - [rust-petname](https://github.com/allenap/rust-petname)
+
+## Licensing
+
+This project is licensed under [GNU Affero General Public License v3](https://www.gnu.org/licenses/agpl-3.0.en.html) because that is [the license SecureDrop is available under](https://github.com/freedomofpress/securedrop/blob/develop/LICENSE). See LICENSE.txt file for more information.
