@@ -1,6 +1,6 @@
 # Nametag
 
-Generate random usernames from a given word list.
+Generate random usernames.
 
 ```text
 $ nametag
