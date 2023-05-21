@@ -75,7 +75,7 @@ If no word list is provided, nametag uses one or two word lists from [the Secure
 
 If the user provides a word list of their own, using the `-l` option, nametag will use that provided list to generate _both_ words. 
 
-If you're looking to create or edit a word list, you might find useful another tool I built called [Tidy](https://github.com/sts10/tidy).
+If you're looking for some different word lists, you can check out my [Orchard Street Wordlists](https://github.com/sts10/orchard-street-wordlists). If you're looking to _create or edit_ a word list, you might find useful another tool I built called [Tidy](https://github.com/sts10/tidy).
 
 ## Other similar projects also written in Rust
 
