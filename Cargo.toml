@@ -1,9 +1,9 @@
 [package]
 name = "nametag"
-version = "0.1.25"
+version = "0.1.26"
 authors = ["sts10 <sschlinkert@gmail.com>"]
 edition = "2021"
 
 [dependencies]
 rand = "0.8.5"
-clap = { version = "4.1.4", features = ["derive"] }
+clap = { version = "4.4.2", features = ["derive"] }
