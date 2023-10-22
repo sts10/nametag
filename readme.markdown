@@ -36,7 +36,7 @@ OPTIONS:
 
 If the `maximum` option is set less than 11, nametag will only pull one word from the word list. If it's set to 11 or higher, it will pull two words from the word list.
 
-**Note**: This program is NOT intended to be used to create secure passwords. **Do NOT use this program to create passwords.**
+**Note**: This program is NOT intended to be used to create secure passwords. **Do NOT use this program to create passwords.** Instead, consider using [Phraze](https://github.com/sts10/phraze).
 
 ## Usage examples
 
