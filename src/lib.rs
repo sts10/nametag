@@ -93,22 +93,16 @@ fn make_list(file_path: &Path) -> Vec<String> {
 /// at compile time rather than runtime.
 /// https://doc.rust-lang.org/std/macro.include_str.html
 fn make_default_lists() -> (Vec<String>, Vec<String>) {
-    let mut adjectives: Vec<String> = include_str!("../word-lists/adjectives.txt")
-        .split('\n')
-        .map(|w| w.to_string())
-        .collect();
-    // Cut off last element, which is blank due to the way we split and collect
-    adjectives.truncate(adjectives.len() - 1);
-
-    let mut nouns: Vec<String> = include_str!("../word-lists/nouns.txt")
-        .split('\n')
-        .map(|w| w.to_string())
-        .collect();
-    // Cut off last element, which is blank due to the way we split and collect
-    nouns.truncate(nouns.len() - 1);
-
-    // Return truncated lists in a tuple
-    (adjectives, nouns)
+    (
+        include_str!("../word-lists/adjectives.txt")
+            .lines()
+            .map(|w| w.to_string())
+            .collect(),
+        include_str!("../word-lists/nouns.txt")
+            .lines()
+            .map(|w| w.to_string())
+            .collect(),
+    )
 }
 
 fn get_random_element(word_list: &[String]) -> String {
