@@ -31,7 +31,6 @@ abolition
 abolitionism
 abolitionist
 abomination
-abort
 abortifacient
 abortionist
 about-face
@@ -2992,7 +2991,6 @@ clamp
 clampdown
 clamshell
 clang
-clansman
 clapboard
 clapper
 claque
@@ -3651,7 +3649,6 @@ coordinate
 coordination
 coordinator
 coot
-cooter
 copal
 cope
 copepod
@@ -3833,7 +3830,6 @@ cowardice
 cowbell
 cowbird
 cowboy
-cowgirl
 cowhide
 cowl
 cowlick
@@ -3933,7 +3929,6 @@ crimp
 crimson
 crinoline
 criollo
-cripple
 crisis
 crispness
 crisscross
@@ -4033,7 +4028,6 @@ cubism
 cubist
 cubit
 cuckold
-cuckoo
 cucumber
 cud
 cuddle
@@ -7632,7 +7626,6 @@ hike
 hiker
 hilarity
 hill
-hillbilly
 hillside
 hilltop
 hilt
@@ -7675,7 +7668,6 @@ hobby
 hobbyist
 hock
 hod
-hoe
 hog
 hogan
 hogback
@@ -7694,7 +7686,6 @@ hollow
 hollowness
 holly
 hollyhock
-holocaust
 hologram
 holography
 holster
@@ -8640,7 +8631,6 @@ jeweler
 jewelry
 jewelweed
 jib
-jig
 jigsaw
 jilt
 jimmies
@@ -8910,7 +8900,6 @@ lama
 lamb
 lambda
 lambskin
-lame
 lameness
 lament
 lamentation
@@ -9460,7 +9449,6 @@ lymphadenopathy
 lymphedema
 lymphocyte
 lymphoma
-lynching
 lynx
 lyre
 lyric
@@ -9496,7 +9484,6 @@ madness
 madras
 madrasa
 madrigal
-madwoman
 maestro
 magazine
 magenta
@@ -10752,7 +10739,6 @@ nocturne
 nod
 node
 nodule
-nog
 noise
 noisemaker
 nomad
@@ -11095,7 +11081,6 @@ organza
 orientalism
 orientalist
 orientation
-orifice
 origami
 origin
 original
@@ -12437,7 +12422,6 @@ pressure
 prestige
 presumption
 presupposition
-preteen
 pretense
 pretension
 pretentiousness
@@ -13786,7 +13770,6 @@ sabot
 sabotage
 saboteur
 sabra
-sac
 saccharin
 saccule
 sachem
@@ -13984,7 +13967,6 @@ scapegoat
 scapula
 scapular
 scar
-scarab
 scarcity
 scare
 scarecrow
@@ -14016,7 +13998,6 @@ schlemiel
 schlep
 schlock
 schmaltz
-schmuck
 schnapps
 schnauzer
 schnitzel
@@ -14568,7 +14549,6 @@ shuttlecock
 shy
 shyness
 shyster
-siamese
 sibilant
 sibling
 sickbay
@@ -14757,7 +14737,6 @@ skywalk
 slab
 slack
 slacker
-slag
 slain
 slalom
 slam
@@ -15080,7 +15059,6 @@ sparring
 sparrow
 sparseness
 spasm
-spastic
 spasticity
 spat
 spatter
@@ -17053,7 +17031,6 @@ urchin
 urea
 ureter
 urethane
-urethra
 urge
 urgency
 urging

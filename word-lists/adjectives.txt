@@ -14,7 +14,6 @@ abnormal
 abominable
 aboriginal
 abortifacient
-abortive
 about
 above
 above-mentioned
@@ -3206,7 +3205,6 @@ grizzled
 groomed
 grooved
 groovy
-groping
 grotesque
 grotty
 ground-floor
@@ -3553,7 +3551,6 @@ illuminated
 illusive
 illustrious
 imaginative
-imbecile
 imbricate
 imitative
 immaculate
@@ -3661,7 +3658,6 @@ incapable
 incarnate
 incautious
 incendiary
-incestuous
 incident
 incidental
 incipient
@@ -3838,7 +3834,6 @@ inorganic
 inquiring
 inquisitive
 inquisitorial
-insane
 inscribed
 insecticidal
 insectivorous
@@ -5065,7 +5060,6 @@ organic
 organismal
 organizational
 organized
-orgiastic
 oriental
 oriented
 orienting
@@ -6544,7 +6538,6 @@ spare
 sparkling
 sparse
 spartan
-spastic
 spatial
 speaking
 special
@@ -6601,7 +6594,6 @@ squared
 squarish
 squat
 squiggly
-squinty
 stabbing
 stabilized
 stabilizing
