@@ -219,6 +219,7 @@ adoration
 adornment
 adsorption
 adulation
+adult
 adulteration
 adulterer
 adulteress
@@ -2622,6 +2623,7 @@ cellulitis
 celluloid
 cellulose
 cement
+cemetery
 cenotaph
 censer
 censor
@@ -2920,6 +2922,7 @@ chug
 chum
 chump
 chunk
+church
 church-state
 churchgoer
 churchyard
@@ -6541,6 +6544,7 @@ frosting
 frown
 fructose
 frugality
+fruit
 fruitfulness
 fruition
 frustration
@@ -9581,6 +9585,7 @@ man
 man-of-war
 manageability
 management
+manager
 manatee
 mandala
 mandamus
@@ -9816,6 +9821,7 @@ medalist
 medallion
 meddler
 meddling
+media
 median
 mediastinum
 mediation
@@ -17476,6 +17482,7 @@ web
 webbing
 webcam
 webmaster
+website
 wedding
 wedge
 wee
