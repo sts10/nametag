@@ -8,7 +8,7 @@ use std::path::Path;
 use std::path::PathBuf;
 use std::str::FromStr;
 
-/// Main public function of this library. Takes optiona filepath of words, a number of usernames to
+/// Main public function of this library. Takes optional filepath of words, a number of usernames to
 /// print, a maximum username length and an option to print in TitleCase.
 pub fn get_usernames(
     list_file_path: Option<PathBuf>,
