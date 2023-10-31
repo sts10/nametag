@@ -1,9 +1,11 @@
 [package]
 name = "nametag"
 version = "0.1.31"
+edition = "2021"
 authors = ["sts10 <sschlinkert@gmail.com>"]
 license = "AGPL-3.0-only"
-edition = "2021"
+readme = "readme.markdown"
+repository = "https://github.com/sts10/nametag"
 
 [dependencies]
 rand = "0.8.5"
