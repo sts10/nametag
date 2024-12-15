@@ -24,10 +24,10 @@ USAGE:
 
 OPTIONS:
     -h, --help                        Print help information
-    -l, --list <LIST_FILE_PATH>       Provide a text file with a list of words to generate username
-                                      from randomly
-    -m, --maximum <MAXIMUM_LENGTH>    Set maximum username length. Must be greater than 5 [default:
-                                      50]
+    -l, --list <LIST_FILE_PATH>       Provide a text file with a list of words to 
+    generate username from randomly
+    -m, --maximum <MAXIMUM_LENGTH>    Set maximum username length. Must be greater than 
+    5 [default: 50]
     -n, --number <NUMBER_TO_PRINT>    Set how many random usernames to output [default: 10]
     -t, --title-case                  Uses Title Case for words in generated usernames
     -v, --verbose                     Prints verbose output, including parameters as received
