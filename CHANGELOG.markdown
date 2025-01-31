@@ -1,3 +1,6 @@
+# v0.2.1
+* Fixes a failed build in `dist` config.
+
 # v0.2.0
 * Upgrade `rand` dependency to v0.9.0, its latest version
 * Upgrade `clap` dependency to v4.5.27, its latest version.
