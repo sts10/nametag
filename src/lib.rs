@@ -1,4 +1,4 @@
-use rand::seq::SliceRandom;
+use rand::prelude::IndexedRandom;
 use rand::Rng;
 use std::fs::File;
 use std::io;
@@ -56,7 +56,7 @@ fn make_username(
             word1.trim_end(),
             get_random_element(&["_".to_string(), "-".to_string(), "".to_string()]),
             word2.trim_end(),
-            rand::thread_rng().gen_range(0..=999)
+            rand::rng().random_range(0..=999)
         );
         if username.len() > maximum_length.into() {
             make_username(word_list1, word_list2, maximum_length, title_case)
@@ -64,11 +64,7 @@ fn make_username(
             username
         }
     } else {
-        let username = format!(
-            "{}{}",
-            word2.trim_end(),
-            rand::thread_rng().gen_range(0..=999)
-        );
+        let username = format!("{}{}", word2.trim_end(), rand::rng().random_range(0..=999));
         if username.len() > maximum_length.into() {
             make_username(word_list1, word_list2, maximum_length, title_case)
         } else {
@@ -106,7 +102,7 @@ fn make_default_lists() -> (Vec<String>, Vec<String>) {
 }
 
 fn get_random_element(word_list: &[String]) -> String {
-    match word_list.choose(&mut rand::thread_rng()) {
+    match word_list.choose(&mut rand::rng()) {
         Some(word) => word.to_string(),
         None => panic!("Couldn't pick a random word"),
     }
