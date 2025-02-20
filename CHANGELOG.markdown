@@ -1,3 +1,6 @@
+# v0.2.2
+* Upgrades to Rust 2024 edition. Include a re-formatting of entire codebase.
+
 # v0.2.1
 * Fixes a failed build in `dist` config.
 

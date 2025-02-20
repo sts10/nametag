@@ -1,5 +1,5 @@
-use rand::prelude::IndexedRandom;
 use rand::Rng;
+use rand::prelude::IndexedRandom;
 use std::fs::File;
 use std::io;
 use std::io::BufRead;
